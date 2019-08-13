@@ -38,17 +38,7 @@ main()
     int aux=0;
     for (int i = 0; i < 10; i++)
     {
-        for (int j = 0; j < 10; j++)
-        {
-            for (int a = 0; a < 10; a++)
-            {
-            if (vetorA[i]!=vetorB[j])
-            {
-                vetorC[a]=vetorA[i];
-                
-            }
-          }  
-        }
+       vetorC[i]=vetorA[i]-vetorB[i]; 
         
     }
     
