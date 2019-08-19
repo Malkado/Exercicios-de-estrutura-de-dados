@@ -26,7 +26,6 @@ for (int i = 0; i < 3; i++)
     
 }
 
-
 for (int i = 0; i < 3; i++)
 {
     if (nota[i]>maior)
@@ -47,13 +46,14 @@ if (nota[i]>antecessor && nota[i]<maior)
         
 }
 
-cout<<"Contagem--------- teste"<<endl;
+/* cout<<"Contagem--------- teste"<<endl;
 for (int i = 0; i < 3; i++)
 {
     cout<<nota[i]<<endl;
 }
 
 cout<<"----------------------"<<endl;
+*/
 
 
 cout<<"maior nota: " <<maior<<endl;

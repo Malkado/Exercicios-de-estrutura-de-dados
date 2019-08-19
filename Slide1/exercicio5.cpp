@@ -42,12 +42,8 @@ main()
         {
             for (int a = 0; a < 10; a++)
             {
-            if (vetorA[i]!=vetorB[j])
-            {
-                vetorC[a]=vetorA[i];
-                
-            }
-          }  
+            vetorC[i]=vetorA[i]-vetorB[i];
+            }  
         }
         
     }
