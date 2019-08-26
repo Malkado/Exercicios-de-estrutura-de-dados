@@ -18,15 +18,14 @@ cin>>num;
 void parOuImpar(int num)
 {
 if (num!= NULL)
-{
-    if (num %2 ==0)
+{   int resultado;
+    resultado= par(num);
+    if (resultado ==1)
     {
-        //par
+        cout<<"O número digitado é par!"<<endl;
     }
-    else
-    {
-        //impar
-    }
+    
+   
     
     
 }
@@ -35,7 +34,10 @@ if (num!= NULL)
 
 int par(int a)
 {
-
+    if (a %2 ==0)
+    {
+        
+    }
 }
 
 int impar(int a)

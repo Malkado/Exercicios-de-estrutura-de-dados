@@ -14,10 +14,13 @@ struct Time
 };
 
 
+
+
 Time t;
 
 int main()
 {
+    Time t[2];
     int op=0;
     double segs;
 cout<<"1-Converter tempo de segundos para horas."<<endl;
@@ -33,6 +36,19 @@ case 1:
     break;
 
 case 2:
+for(int i=0; i<2; i++){
+    cout<<"Digite a hora: "<<endl;
+    cin>>t[i].hh;
+    cout<<"Digite o minuto: "<<endl;
+    cin>>t[i].mm;
+    cout<<"Digite os segundos:"<<endl;
+    cin>>t[i].seconds;
+
+}
+    Time time1=t[0];
+    Time time2=t[1];
+    addTime(time1,time);
+    
     break;
 
 case 3:
