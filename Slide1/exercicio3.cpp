@@ -5,7 +5,7 @@ using namespace std;
 
 main()
 {
-    double numeros[8];
+    float numeros[8];
     cout<<"Digite os 8 valores:";
   for (int i = 0; i < 8; i++)
   {
@@ -30,7 +30,7 @@ main()
   
   
 
-  double v[2];
+  float v[2];
     v[0]=numeros[posicao1];
     v[1]=numeros[posicao2];
 
